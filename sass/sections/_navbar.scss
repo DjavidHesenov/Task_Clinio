@@ -1,0 +1,54 @@
+.navigation {
+    height: 90px;
+    width: $larger-width;
+    margin: 0px auto;
+    .logo{        
+    }
+    nav {
+        margin-left: $space-50;
+        ul {
+            height: 100%;
+            li {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin: 0px 17px;
+                a {
+                color: $main-color;
+                font-weight: $medium-weight;
+                font-size: $size-14;
+                padding-bottom: 5px;
+                }
+            }
+        }
+    }
+    .appointment-button {
+    }
+    button {
+        @extend %main-button;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    height: 40px;
+    width: 143px;
+    
+}
+
+.logo {
+    align-items: center;
+    
+}

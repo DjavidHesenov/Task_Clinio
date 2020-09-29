@@ -1,0 +1,573 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  flex classes */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* horizontal aligning */
+.flex-direction-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+/* vertical aligning */
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.align-items-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+body {
+  background-color: #f1f2f2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*  flex classes */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* horizontal aligning */
+.flex-direction-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* vertical aligning */
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.align-items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.chosen {
+  border-bottom: 1px solid #024B6C;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.best-place-clinio .holder .our-serv-button button, .blue-box .book-an-appointment-div .send-message-button button, .navigation button {
+  color: white;
+  font-weight: 600;
+  height: 37px;
+  padding: 0px 20px;
+  background-color: #e9490a;
+  border: 1px solid #e9490a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  letter-spacing: 0.35px;
+}
+
+.best-place-clinio .holder .our-serv-button button:hover, .blue-box .book-an-appointment-div .send-message-button button:hover, .navigation button:hover {
+  background-color: transparent;
+  color: #024B6C;
+  border: 1px solid #024B6C;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.blue-box .book-an-appointment-div .inputs .input-container input {
+  background-color: #eff5f7;
+  color: #024b6c;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 25px;
+  height: 48px;
+  width: 270px;
+  outline: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.best-place-clinio {
+  background: url(/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 400px;
+  padding-left: 14.5%;
+  padding-top: 50px;
+  padding-bottom: 27.77778px;
+}
+
+.best-place-clinio .holder {
+  width: 525px;
+  height: 375px;
+  background-color: transparent;
+}
+
+.best-place-clinio .holder .upper-part {
+  font-size: 55px;
+  font-weight: 900;
+  color: #024B6C;
+}
+
+.best-place-clinio .holder .upper-part .is-clinio {
+  font-weight: 100;
+}
+
+.best-place-clinio .holder .middle-part {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  margin: 35px 0px;
+  color: #024B6C;
+}
+
+.best-place-clinio .holder .middle-part .middle-part-span {
+  display: block;
+  margin-bottom: 1px;
+}
+
+.best-place-clinio .holder .our-serv-button button {
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 10px 33px;
+}
+
+.blue-box {
+  width: 1170px;
+  height: 587px;
+  margin: 0px auto;
+  margin-bottom: 90px;
+  border-radius: 5px;
+  background-color: #16a0b8;
+}
+
+.blue-box .book-an-appointment-div {
+  padding: 45px;
+  width: 760px;
+}
+
+.blue-box .book-an-appointment-div .book-an-app {
+  color: white;
+  margin-bottom: 55px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+}
+
+.blue-box .book-an-appointment-div .inputs {
+  width: 670px;
+  height: 350px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-bottom: 35px;
+}
+
+.blue-box .book-an-appointment-div .inputs .input-container .div-for-icon {
+  top: 5%;
+  left: 90%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  font-size: 1.1em;
+  color: #024B6C;
+}
+
+.blue-box .book-an-appointment-div .inputs .message textarea {
+  padding: 20px 25px;
+  width: 618px;
+  height: 128px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.blue-box .book-an-appointment-div .send-message-button button {
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.blue-box .book-an-appointment-div .send-message-button button:hover {
+  border-color: white;
+  color: white;
+}
+
+.blue-box .contact-us-div {
+  padding: 45px;
+  width: 409px;
+  height: 587px;
+  border-left: 1px solid white;
+  color: white;
+  letter-spacing: 0.35px;
+}
+
+.blue-box .contact-us-div .contact-us {
+  margin-bottom: 55px;
+}
+
+.blue-box .contact-us-div .contact-us span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.blue-box .contact-us-div .booking-contact-location {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.blue-box .contact-us-div .booking-contact-location span {
+  font-weight: 600;
+}
+
+.blue-box .contact-us-div .booking-contact-adress {
+  margin-bottom: 80px;
+}
+
+.blue-box .contact-us-div .booking-contact-email {
+  margin-bottom: 25px;
+}
+
+.blue-box .contact-us-div .booking-contact-email span {
+  font-weight: 600;
+}
+
+.blue-box .contact-us-div .booking-contact-hours {
+  font-size: 14px;
+  margin-bottom: 110px;
+}
+
+.blue-box .contact-us-div .booking-contact-hours span {
+  font-weight: 600;
+}
+
+.blue-box .contact-us-div .booking-contact-phone {
+  margin-bottom: 20px;
+}
+
+.blue-box .contact-us-div .booking-contact-phone span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blue-box .contact-us-div .phone-number span {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+::-webkit-input-placeholder, textarea {
+  color: #024b6c;
+  font-weight: 600;
+}
+
+:-ms-input-placeholder, textarea {
+  color: #024b6c;
+  font-weight: 600;
+}
+
+::-ms-input-placeholder, textarea {
+  color: #024b6c;
+  font-weight: 600;
+}
+
+::placeholder, textarea {
+  color: #024b6c;
+  font-weight: 600;
+}
+
+.navigation {
+  height: 90px;
+  width: 1420px;
+  margin: 0px auto;
+}
+
+.navigation nav {
+  margin-left: 50px;
+}
+
+.navigation nav ul {
+  height: 100%;
+}
+
+.navigation nav ul li {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 17px;
+}
+
+.navigation nav ul li a {
+  color: #024B6C;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+img {
+  height: 40px;
+  width: 143px;
+}
+
+.logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-line {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  width: 1420px;
+  height: 40px;
+  margin: 0 auto;
+  color: #024B6C;
+  border-bottom: 1px solid #d8e3e8;
+  letter-spacing: 0.35px;
+}
+
+.top-line .left-side .contact .top-line-mail {
+  margin-left: 10px;
+}
+
+.top-line .left-side .media {
+  margin-left: 50px;
+}
+
+.top-line .left-side .media .top-line-phone {
+  margin-left: 10px;
+}
+
+.top-line .right-side .social-media a {
+  color: #638DA0;
+}
+
+.top-line .right-side .social-media a:hover {
+  color: #346E88;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.top-line .right-side .social-media a span {
+  margin-left: 20px;
+}
+
+.last-section {
+  color: #024B6C;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.last-section .why-choose-us {
+  margin-bottom: 74px;
+  font-size: 30px;
+}
+
+.last-section .why-choose-us span {
+  font-weight: 700;
+}
+
+.last-section .four-items-row {
+  height: 212px;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.last-section .four-items-row .quarter-container {
+  letter-spacing: 0.35px;
+  width: 25%;
+}
+
+.last-section .four-items-row .quarter-container .div-for-icon .fa {
+  font-size: 82px;
+  color: #01addd;
+}
+
+.last-section .four-items-row .quarter-container .content {
+  margin: 15px 0px 5px;
+}
+
+.last-section .four-items-row .quarter-container .content span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.last-section .four-items-row .quarter-container .content-text span {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

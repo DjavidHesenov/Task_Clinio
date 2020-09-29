@@ -1,0 +1,39 @@
+.top-line {
+    font-size: $size-14;
+    font-family: 'Poppins', sans-serif;
+    width: $larger-width;
+    height: 40px;
+    margin: 0 auto;
+    color: $main-color;
+    border-bottom: 1px solid #d8e3e8 ;
+    letter-spacing: 0.35px;
+    .left-side{
+        .contact{
+            .top-line-mail{
+                margin-left: $space-50/5;
+            }
+        }
+        .media {
+            margin-left: $space-50;
+            .top-line-phone{
+                margin-left: $space-50/5;
+            }
+        }
+    }
+    .right-side{
+        .social-media{
+            a{
+                color: #638DA0;
+                &:hover {
+                    color: #346E88;
+                    transition: 0.5s;
+                }
+                span {
+                    margin-left: $space-50/2.5;
+                }
+            }
+        }
+    }
+    
+}
+

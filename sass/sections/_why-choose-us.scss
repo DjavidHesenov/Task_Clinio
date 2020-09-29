@@ -1,0 +1,40 @@
+.last-section {
+    color: $main-color;
+    width: $standard-width;
+    margin: 0 auto;
+    .why-choose-us {
+        margin-bottom: 74px;
+        font-size: $size-30;
+        span {
+            font-weight: $weighty;
+        }
+    }
+    .four-items-row {
+        height: 212px;
+        padding-bottom: 60px;
+        display: flex;
+        .quarter-container {
+            letter-spacing: 0.35px;
+            width: 25%;
+            .div-for-icon {
+                .fa {
+                    font-size: $size-82;
+                    color: #01addd;
+                }
+            }
+            .content {
+                margin: 15px 0px 5px;
+                span {
+                    font-weight: $weighty;
+                    font-size: $size-18;
+                }
+            }
+            .content-text {
+                span {
+                    font-size: $size-14;
+                }
+            }
+        }
+    }
+
+}

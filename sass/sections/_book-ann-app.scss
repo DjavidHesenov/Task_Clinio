@@ -1,0 +1,117 @@
+.blue-box {
+    width: $standard-width;
+    height: 587px;
+    margin: 0px auto;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    background-color: rgb(22, 160, 184);
+    .book-an-appointment-div {
+        padding:45px;
+        width: 760px;
+        .book-an-app {
+            color: white;
+            margin-bottom: 55px;
+            font-size: $size-14;
+            font-weight: $medium-weight;
+            letter-spacing: 0.35px;
+        }
+        .inputs {
+            width: 670px;
+            height: 350px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin-bottom: 35px;
+            .input-container {
+                input {
+                    @extend %input-example;
+                }
+                .div-for-icon {
+                    top: 5%;
+                    left: 90%;
+                    transform: translateY(50%);
+                    font-size: 1.1em;
+                    color: $main-color;
+                }
+            }
+            .message {
+                textarea {
+                    padding: 20px 25px;
+                    width: 618px;
+                    height: 128px;
+                    border-radius: 5px;
+                    outline: none;
+                }
+            }
+        }
+        .send-message-button {
+            button {
+                padding: 10px 30px;
+                @extend %main-button;
+                border-radius: 5px;
+                &:hover{
+                    border-color: white;
+                    color: white;
+                }
+            }
+        }    
+
+    }
+    .contact-us-div {
+        padding: 45px;
+        width: 409px;
+        height: 587px;
+        border-left: 1px solid white;
+        color: white;
+        letter-spacing: 0.35px;
+        .contact-us{
+            margin-bottom: 55px;
+            span {
+                font-size: $size-14;
+                font-weight: $weighty;
+            }
+        }
+        .booking-contact-location{
+            font-size: $size-24;
+            margin-bottom: 15px;
+            span {
+                font-weight: $medium-weight;
+            }
+        }
+        .booking-contact-adress {
+            margin-bottom: 80px;
+        }
+        .booking-contact-email {
+            margin-bottom: 25px;
+            span {
+                font-weight: $medium-weight;
+            }
+        }
+        .booking-contact-hours {
+            font-size: $size-14;
+            margin-bottom: 110px;
+            span {
+                font-weight: $medium-weight;
+            }
+        }
+        .booking-contact-phone {
+            margin-bottom: 20px;
+            span {
+                font-size: $size-16;
+                font-weight: 600;
+            }
+        }
+        .phone-number {
+            span {
+                font-weight: $medium-weight;
+                font-size: $size-26;
+            }
+        }
+    }
+}
+
+
+
+::placeholder, textarea {
+    color: rgb(2, 75, 108);
+    font-weight: $medium-weight;
+}

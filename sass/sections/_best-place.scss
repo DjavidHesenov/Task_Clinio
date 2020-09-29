@@ -1,0 +1,43 @@
+.best-place-clinio {
+    background: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 400px;
+    padding-left: 14.5%;
+    padding-top: $space-50;
+    padding-bottom: $space-50/1.8;
+    .holder {
+        width: 525px;
+        height: 375px;
+        background-color: transparent;
+        .upper-part {
+            font-size: $size-55;
+            font-weight: $very-weighty;
+            color: $main-color;
+            .is-clinio {
+                font-weight: $min-weight;
+            }
+        }
+        .middle-part {
+            font-weight: $weighty;
+            font-size: $size-12;
+            letter-spacing: 0.35px;
+            margin: 35px 0px;
+            color: $main-color;
+            .middle-part-span {
+                display: block;
+                margin-bottom: 1px;
+            }
+        }
+        .our-serv-button {
+            button {
+                border-radius: 3px;
+                font-size: $size-14;
+                padding: 10px 33px;
+                @extend %main-button;
+            }
+        }
+    }
+}
+
